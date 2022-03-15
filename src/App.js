@@ -1,4 +1,5 @@
-import Expenses from "./components/Expenses/Expenses";
+import React from 'react';
+import Expenses from './components/Expenses/Expenses';
 
 const App = () => {
   const expenses = [
@@ -29,6 +30,6 @@ const App = () => {
       <Expenses expenses={expenses} />
     </div>
   );
-}
+};
 
 export default App;

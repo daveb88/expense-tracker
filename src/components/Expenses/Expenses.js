@@ -1,3 +1,4 @@
+import React from 'react';
 import ExpenseItem from './ExpenseItem';
 import Card from '../UI/Card';
 
@@ -15,6 +16,6 @@ const Expenses = (props) => {
       ))}
     </Card>
   );
-}
+};
 
 export default Expenses;
